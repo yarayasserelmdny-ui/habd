@@ -5,13 +5,13 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <section >
+    <footer >
         <div className='bg-[#020e1b] h-[50px] flex justify-between items-center px-20 '>
         <p className='text-white'>© Copyright 2025 All Rights Reserved by Yara Elmadany</p>
                     <Icons/>
 
       </div>
-    </section>
+    </footer>
 
 
   )
