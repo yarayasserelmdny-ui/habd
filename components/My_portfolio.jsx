@@ -6,9 +6,9 @@ export default function My_portfolio() {
   return (
     <section id='portfolio'>
       <div>
-        <h1 className=' text-4xl font-bold text-center pt-[10px]'> <span className='text-[#FF6500]'>My </span><span className='text-white'>Portfolio</span></h1>
+        <h1 className=' text-4xl font-bold text-center pt-2.5'> <span className='text-[#FF6500]'>My </span><span className='text-white'>Portfolio</span></h1>
       </div>
-      <div className='grid grid-cols-3 gap-6 justify-center items-center mx-auto max-w-7xl pt-[50px] pb-[80px]'>
+      <div className='grid grid-cols-3 gap-6 justify-center items-center mx-auto max-w-7xl pt-[50px] pb-20'>
         <Card imgs="/Bassit.png" title="Bassit" description="A clean and responsive blog website featuring engaging articles and creative content for readers." link="https://yarayasserelmdny-ui.github.io/bassit/" />
 
         <Card imgs="/Shop.png" title="Shop.co" description="A stylish e-commerce website for clothing, offering a wide range of fashion items with an easy shopping experience and secure checkout." link="https://yarayasserelmdny-ui.github.io/Shop.co/" />
