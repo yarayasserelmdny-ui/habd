@@ -6,7 +6,6 @@ import Icons from './Icons.jsx';
 
 export default function Hero() {
     return (
-        <>
             <section id="hero" className="text-white flex justify-around items-center p-25 space-x-80 h-[660px]">
                 <motion.div
                     initial={{ x: -150, opacity: 0 }}
@@ -42,6 +41,5 @@ export default function Hero() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeOut" }} />
             </section>
-        </>
     );
 }
