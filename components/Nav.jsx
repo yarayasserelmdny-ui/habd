@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 
 export default function Navbar() {
   return (
-    <section>
       <motion.nav
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -22,6 +21,5 @@ export default function Navbar() {
           </ul>
         </div>
       </motion.nav>
-    </section>
   );
 }
